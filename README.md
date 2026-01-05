@@ -1,4 +1,5 @@
-Mesa Tutorial – Concept and Usage
+```markdown
+## Mesa Tutorial – Concept and Usage
 
 Mesa is a Python-based framework that provides an environment in which to build agent-based models. In such models, complex behavior at the system level emerges from the interactions between individual agents following simple, local decision rules. This tutorial will give an excellent introduction to the core abstractions necessary to construct such models in a modular and extensible way using Mesa.
 
@@ -14,19 +15,23 @@ The tutorial then covers Mesa's built-in visualization and server tools, which a
 
 The Mesa tutorial establishes a structured framework for modeling complex adaptive systems, and it is particularly well-suited for the simulation of economic and financial systems when the emergent behavior is of primary interest.
 
-**Understanding Game Theory Strategies**
+---
+
+## Understanding Game Theory Strategies
+
 In 1928
 
-1. Minority Game Strategy
+### 1. Minority Game Strategy
 
 In this strategy, it is beneficial for the agent to make decisions contrary to the majority of the market. If the majority of the agents is purchasing, then selling is a beneficial action, and if the majority is selling, then purchasing is a beneficial action.
 
 My understanding is it captures the competitive scenarios where payoff is based on the exploitation of the crowd behavior rather than being fed back as it happens in the crowd. It injects negative feedback into the process, which helps to prevent the prices from being uncontrolled. But there needs to be an estimate of the crowd behavior on the part of the agents.
 
-2. Trend-Follow
+### 2. Trend-Follow
 
 In a trend-following model, agents make decisions about buying or selling based on the recent trend of the price. Agents buy when prices are rising and sell when prices are falling.
 
 Based on my understanding, it appears that this is close to a game that involves coordination, with agents accumulating benefits if they are aiming toward each other. Although such a game appears lucrative, it also creates self-reinforcing trends. In a situation where most agents are following this game, the system becomes more volatile.
 
 The coupling of these two strategies demonstrates how different schemes of incentives can result in equally different market behavior at the market level despite simple rules for individual agents.
+```
