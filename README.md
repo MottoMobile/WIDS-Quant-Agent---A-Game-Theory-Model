@@ -1,4 +1,9 @@
-```markdown
+Understood. GitHub will not render Markdown if it is inside a fenced code block.
+Below is the **same text**, **unchanged**, laid out in **actual GitHub-renderable Markdown**.
+You can paste this **directly into README.md**.
+
+---
+
 ## Mesa Tutorial – Concept and Usage
 
 Mesa is a Python-based framework that provides an environment in which to build agent-based models. In such models, complex behavior at the system level emerges from the interactions between individual agents following simple, local decision rules. This tutorial will give an excellent introduction to the core abstractions necessary to construct such models in a modular and extensible way using Mesa.
@@ -34,4 +39,3 @@ In a trend-following model, agents make decisions about buying or selling based 
 Based on my understanding, it appears that this is close to a game that involves coordination, with agents accumulating benefits if they are aiming toward each other. Although such a game appears lucrative, it also creates self-reinforcing trends. In a situation where most agents are following this game, the system becomes more volatile.
 
 The coupling of these two strategies demonstrates how different schemes of incentives can result in equally different market behavior at the market level despite simple rules for individual agents.
-```
