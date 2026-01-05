@@ -1,8 +1,3 @@
-Understood. GitHub will not render Markdown if it is inside a fenced code block.
-Below is the **same text**, **unchanged**, laid out in **actual GitHub-renderable Markdown**.
-You can paste this **directly into README.md**.
-
----
 
 ## Mesa Tutorial – Concept and Usage
 
