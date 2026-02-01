@@ -33,4 +33,5 @@ Our simulation demonstrates a **Sub-Critical Phase** (Efficient Market):
 - `data/`: Output metrics and visualization.
 
 ---
-*Built for the WIDS Quant Competition.*
+
+
