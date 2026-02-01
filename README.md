@@ -22,6 +22,16 @@ Our simulation demonstrates a **Sub-Critical Phase** (Efficient Market):
 
 ![Simulation Result](data/final_report.png)
 
+## 🔬 Research & Experiments
+Beyond the core simulation, this project includes a `experiment_lab.py` module to study **Phase Transitions**.
+
+### The Critical Point Analysis
+We analyzed how **Information Complexity (Memory Size $m$)** impacts market stability.
+- **Hypothesis:** Low information leads to herding (high volatility). High information leads to efficiency.
+- **Result:** Our parameter sweep confirms a phase transition at $m \approx 6$, where the market shifts from a **Symmetric Phase (Herding)** to a **Broken Symmetry Phase (Efficient)**.
+
+![Phase Transition](data/phase_transition_research.png)
+
 ## 🛠 Tech Stack
 - **Simulation Core:** `Mesa` (Agent-based modeling)
 - **Data Analysis:** `Pandas`, `NumPy`
